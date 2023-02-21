@@ -40,11 +40,11 @@ void read_file(string filename, int dept_prefs[5][5], int prog_prefs[5][5]){
 
 
 int main() {
-    int dept_prefs[DEPT_COUNT][PROG_COUNT];
+    int dept_prefs[DEPT_COUNT][PROG_COUNT];  // initialize department and programmer preferences
     int prog_prefs[PROG_COUNT][DEPT_COUNT];
-    read_file("matching-data.txt", dept_prefs, prog_prefs);
+    read_file("matching-data.txt", dept_prefs, prog_prefs); // read file and load preferences
 
-    vector<int> assigned_prog(5, 0);
+    vector<int> assigned_prog(5, 0); // create vectors
     vector<int> assigned_dept(5, -1);
 
     for (int i = 0; i < 5; i++) {
