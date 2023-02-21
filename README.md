@@ -8,18 +8,16 @@ Input is read from file as follows:
 The following inputs:
   
   Department Preferences
-  1 5 3 2 4
-  1 3 4 2 5
-  3 4 2 5 1
-  3 1 2 4 5
-  4 3 1 2 5
+  
+  ![Screenshot 2023-02-20 at 8 39 35 PM](https://user-images.githubusercontent.com/120140940/220233666-7d78aa34-3fbf-4521-8f3d-e5f67b861990.png)
+
   
   Programmer Preferences
-  3 1 2 5 4
-  4 3 1 5 2
-  2 5 4 1 3
-  4 5 2 1 3
-  3 2 1 5 4
+  
+  ![Screenshot 2023-02-20 at 8 39 50 PM](https://user-images.githubusercontent.com/120140940/220233703-6b8ce090-7d61-4d2c-b463-dd44764f599d.png)
+
+  
+  
   
   Give the following output:
   
